@@ -6,27 +6,40 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="GET">
     <h1>Course Sign Up Page</h1>
     <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+    <form action="GET">
+
     <label for="firstname">First Name:</label>
     <input type="text" name="fname" id="firstname" placeholder="First Name" required>
+
     <label for="lastname">Last Name:</label>
     <input type="text" name="lname" id="lastname" placeholder="Last Name" required>
+
+    <p></p>
+
     <label for="mail">Email:</label>
     <input type="email" name="Email" id="mail" placeholder="name@email.com" required>
+
     <label for="pword">Password:</label>
     <input type="password" name="Pass" id="pword" required>
+
     <p>Are you over the age of 18?</p>
+
     <label for="es">Yes:</label>
     <input type="radio" name="choice" id="es">
+
     <label for="noe">No:</label>
     <input type="radio" name="choice" id="noe">
+
     <p>Do you have a Credit Card or PayPal?</p>
+
     <select name="card" >
         <option value="1">Credit Card</option>
         <option value="2">PayPal</option>
     </select>
+    <p></p>
+    
     <input type="submit" value="Submit Feedback">
 </form>
 </body>
