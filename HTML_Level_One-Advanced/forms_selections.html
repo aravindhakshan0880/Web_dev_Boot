@@ -1,0 +1,32 @@
+<!-- input method variteys(Radio Button(Linked)) -->
+<!-- Drop Down Menus and Text Arre Inputs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Feedback</title>
+</head>
+<body>
+    <h1>Hotel Feedback Form</h1>
+    <form action="" method="get">
+        <h3>Are you from inside the US? Or Outside the US?</h3>
+        <label for="inusa">Inside:</label>
+        <input id="inusa" type="radio" name="loc" value="inside">
+        <label for="outusa">OutSide:</label>
+        <input type="radio" name="loc" id="outusa" value="outside">
+
+        <h2>How was your service?</h2>
+
+        <select name="stars">
+            <option value="Great">3</option>
+            <option value="Okay">2</option>
+            <option value="Bad">1</option>
+        </select>
+        <h2>Any other feedback?</h2>
+        <textarea name="mytext" id="" cols="80" rows="8"></textarea>
+        <input type="submit" value="SUBMIT">
+    </form>
+    
+</body>
+</html>
