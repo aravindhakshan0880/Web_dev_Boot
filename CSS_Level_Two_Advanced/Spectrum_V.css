@@ -5,31 +5,26 @@ h2{
 
 #one{
     background-color: #51E5FF;
-    width: 200px;
-    height: 400px;
 }
 
 #two{
     background-color: #440381;
-    width: 200px;
-    height: 400px;
 }
 
 #three{
     background-color: #EC368D;
-    width: 200px;
-    height: 400px;
 }
 #for{
     background-color: #FFA5A5;
-    width: 200px;
-    height: 400px;
 }
 #five{
     background-color: #FFD6C0;
+}
+td{
     width: 200px;
     height: 400px;
 }
+
 table{
     margin: auto;
 }
