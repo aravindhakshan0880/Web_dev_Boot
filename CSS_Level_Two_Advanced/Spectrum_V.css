@@ -23,6 +23,7 @@ h2{
 td{
     width: 200px;
     height: 400px;
+    border: 6px solid white;
 }
 
 table{
